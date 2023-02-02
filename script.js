@@ -7,7 +7,7 @@ document.onkeypress = function (evt) {
     }
 };
 
-// When the user clicks anywhere outside of the modal dialog, close it
+// When the user click anywhere outside of the modal dialog, close it
 window.onclick = function (evt) {
     var modal = document.getElementsByClassName("modal")[0];
     if (evt.target === modal) {
